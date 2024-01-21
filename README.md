@@ -1,5 +1,4 @@
 # 2mask2polygon.py
----
 # Background
 
 This code was created to convert pixel point labels into the Polygon format required for Yolov7 Segmentation training, addressing a practical need encountered during labeling tasks.
