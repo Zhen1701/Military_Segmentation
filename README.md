@@ -3,7 +3,7 @@
 # Background
 
 This code was created to convert pixel point labels into the Polygon format required for Yolov7 Segmentation training, addressing a practical need encountered during labeling tasks.
-
+<!-- 
 <div style="display: flex; justify-content: space-around;">
     <div style="text-align: center;">
         <h2>Original Label</h2>
@@ -23,6 +23,13 @@ This code was created to convert pixel point labels into the Polygon format requ
         <img src="https://hackmd.io/_uploads/S1w3tE9tp.png" alt="Image 2" width="350" />
     </div>
 </div>
+-->
+
+| Original Label | Polygon Format|
+| -------- | -------- | 
+|![Imgur](https://i.imgur.com/g7cWB2U.png)|![Imgur](https://i.imgur.com/JDuNZX1.jpg)|
+|![Imgur](https://i.imgur.com/N5vErTL.png)|![Imgur](https://i.imgur.com/aqeB8Ay.png)|
+
 
 # Command
 ```
@@ -71,8 +78,3 @@ Dataset
 * Converted files will be stored in the ‘Polygon_labels’ folder, organized by different datasets and classes.
 * In our code, a commented section lets you draw polygons on images and view the results. Uncomment it if you wish to see this in action.
 
-
-
-
-# Test 
-![S__187531344_0](https://hackmd.io/_uploads/Bk9VkH9Ya.jpg =30%x)![S__187531344_0](https://hackmd.io/_uploads/Bk9VkH9Ya.jpg =30%x)
